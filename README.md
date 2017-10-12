@@ -26,9 +26,11 @@ $ mysql -u [C9 USERNAME] -p pets
 ## Sample queries
 Run these queries and see what they do.
 
+```
 DESC pets;
 SELECT * from pets;
 SELECT * FROM pets JOIN visits WHERE pets.account_num=visits.account_num ORDER BY 3;
+```
 
 ## Exercises
 1. Insert a row into each table.
