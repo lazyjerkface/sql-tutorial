@@ -2,24 +2,24 @@
 A simple tutorial to learn MySQL for GWC TV. This is intended to be done in C9.
 
 ## Start MySQL
-```bash
+```
 $ mysql-ctl start
 ```
 
 ## Create the tables and load the database
-```bash
+```
 $ mysql -u [C9 USERNAMe] -p < pets.sql
 ```
 Note that the default password is blank, so you can just press ENTER when prompted for a password.
 
 ## Connect to the database
 There's two ways to do this in C9.  The easy way is to use the mysql-ctl command
-```bash
+```
 $ mysql-ctl cli
 ```
 
 The standard way is to use the mysql command
-```bash
+```
 $ mysql -u [C9 USERNAME] -p pets
 ```
 
